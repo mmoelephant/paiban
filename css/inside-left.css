@@ -1,0 +1,126 @@
+@font-face{
+    font-family: dahei;
+    src: url('../fonts/FZDHTK.TTF')
+}
+.inside{
+    width: 1162px;height: 1616px;padding:40px 30px 0 30px;box-sizing: border-box;
+}
+.inside-top{
+    height:81px;display: flex;justify-content:space-between;align-items:flex-end;padding: 0 10px 0 70px;box-sizing: border-box;
+}
+.inside-top-left img{
+    width:130px
+}
+.inside-top-right{
+    width: 892px;display: flex;justify-content: space-between;align-items: flex-end
+}
+.right-middle{
+    width:835px;border-bottom: 1px dashed #000;box-sizing: border-box;display: flex;justify-content: space-between;align-items: flex-end
+}
+.middle-left img{
+    width:128px
+}
+.middle-right img{
+    width:380px
+}
+.inside-middle{
+    width:1102px;height:1400px;padding:24px 10px 0 0;box-sizing: border-box;
+}
+.middle-box{
+    height:1376px;display: flex;justify-content: space-between;overflow: hidden;
+}
+.mmleft{
+    width: 40px;
+}
+.se{
+    width:40px;height:260px;background-color: #808080;padding:34px 0 0 0;box-sizing: border-box
+}
+.se div{
+    width:28px;margin-left:6px;font-size:28px;font-family:dahei;line-height: 48px;color: #ffffff
+
+}
+.se_second{
+    margin-top: 40px;font-size: 20px;font-family: dahei
+}
+.se_second > div{
+    width:20px;margin-left: 9px;
+}
+.kuohao_left{
+    display: inline-block;
+    transform:rotate(10deg);
+    -ms-transform:rotate(90deg); 
+    -webkit-transform:rotate(90deg); 
+}
+.kuohao_right{
+    display: inline-block;
+    transform:rotate(10deg);
+    -ms-transform:rotate(90deg); 
+    -webkit-transform:rotate(90deg); 
+}
+.xuxian{
+    height: 872px;width: 1px;border: 1px dashed #000;box-sizing: border-box;margin: 10px 0 0 18px;
+}
+.mmright{
+    width:1022px;margin-left: 30px;
+}
+.mmright-title{
+    margin:6px 0 30px 0;font-size: 36px;font-family:xiaobiaosong;line-height: 36px;text-align: center
+}
+.dataTable{
+    border: 2px #000 solid;box-sizing:border-box;border-collapse: collapse;font-family: hei
+}
+th,td{
+    border:1px #000 solid;box-sizing:border-box;
+}
+.tableTitle th{
+    font-size: 18px;line-height: 30px;font-weight: normal
+}
+.item1{
+    width: 60px
+}
+.item2{
+    width:240px
+}
+.item3{
+    width:214px
+}
+.item4{
+    width:56px
+}
+.item5{
+    width:90px
+}
+.first{
+    background-color:#d9d9d9;
+}
+.first > td{
+    padding-left: 60px;box-sizing:border-box;font-size: 24px;line-height: 40px
+}
+.second{
+    background-color:#e6e6e6;
+}
+.second > td{
+    padding-left: 60px;box-sizing: border-box;font-size: 22px;line-height: 30px
+}
+.third{
+    background-color: #e6e6e6;
+}
+.third > td{
+    padding-left: 60px;box-sizing:border-box;font-size: 20px;line-height: 30px
+}
+.data > td{
+    font-size: 18px;text-align: center;line-height:30px
+}
+.data .item2,.data .item3{
+    text-align: left;text-indent: 8px
+}
+.inside-bottom{
+    height:95px;padding:20px 0 35px 0;box-sizing: border-box;display: flex;align-items: center
+}
+.yema{
+    width: 42px;height:40px;background: url(../images/yema_page.svg) no-repeat center;background-size:100% 100%;padding: 0;
+    font-size: 20px;font-family: dahei;line-height: 36px;text-align:center;
+}
+.bei img{
+    width:595px;margin: 8px 0 0 4px
+}

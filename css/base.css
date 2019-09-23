@@ -1,0 +1,119 @@
+/* @charset "utf-8"; */
+@font-face
+{
+font-family: xiaobiaosong;
+src: url('../fonts/FZXBSK.TTF')
+}
+@font-face
+{
+font-family: shusong;
+src: url('../fonts/FZSSK.TTF')
+}
+@font-face
+{
+font-family: hei;
+src: url('../fonts/simhei.ttf')
+}
+body,ul,li{
+    padding:0;margin:0; 
+}
+ul{
+    list-style: none
+}
+.catalog{
+    width:1162px;height:1616px;background:#fff;display:flex;
+}
+.catalog-left{
+    width:234px;background-color:#D9D9D9;padding-top:74px;box-sizing:border-box
+}
+.left1{
+    padding:0 5px 0 37px;border-bottom:2px #808080 solid;box-sizing:border-box;display:flex;align-items:flex-end;
+}
+.mu{
+    padding:14px 12px;border-right:2px #808080 solid;box-sizing: border-box;
+}
+.contents{
+    padding:14px 12px;box-sizing: border-box;
+}
+.mu img{
+    width:46px;
+}
+.contents img{
+    width:96px;
+}
+.left2{
+    padding:0 0 0 37px;box-sizing:border-box;display: flex;
+}
+.kong{
+    padding:0 12px;border-right:2px #808080 solid;box-sizing: border-box
+}
+.kong div{
+    width:46px
+}
+.lu{
+    padding: 20px;box-sizing: border-box
+}
+.lu img{
+    width:85px;
+}
+.catalog-right{
+    width:calc(100% - 234px);box-sizing:border-box
+}
+.rightBox{
+    width:826px;height:100%;padding-top:72px;box-sizing: border-box;
+}
+.righTop{
+    display:flex;align-items:flex-end;justify-content:space-between;padding:0 0 0 20px;border-bottom:2px #808080 solid;box-sizing: border-box
+}
+.topLeft img{
+    width:317px
+}
+.topRight img{
+    width:130px
+}
+.cataContent{
+    padding:20px 0 0 12px;box-sizing: border-box
+}
+.conBox{
+    height:1424px;padding:20px 20px 50px 40px;border-left: 1px dashed #000000;box-sizing: border-box;
+}
+.firstClass{
+    display:flex;align-items:center;justify-content:space-between;font-size:26px;color:#000;font-family: xiaobiaosong;line-height:26px;
+}
+.classTitle{
+    display: flex;align-items:center;overflow: hidden;white-space: nowrap;
+}
+.quote{
+    padding-left:10px;box-sizing:border-box;font-size:14px;font-family: shusong;font-weight: bold
+}
+.yema{
+    padding-left:10px;box-sizing:border-box;font-size:18px;font-family:shusong;
+
+}
+.secondClass{
+    padding-left:60px;box-sizing:border-box;margin-top:28px;display:flex;align-items:center;justify-content:space-between;line-height:18px;
+}
+.no{
+    font-size:16px;font-family: shusong;
+}
+.secondName{
+    margin-left:22px;font-size:18px;font-family: hei;
+}
+.thirdClass{
+    padding-left: 106px;box-sizing: border-box;margin-top:18px;display:flex;align-items:center;justify-content:space-between;line-height:18px;
+}
+.thirdClass .secondName{
+    margin-left:25px;font-size: 16px;
+}
+.fourClass{
+    padding-left: 166px;box-sizing: border-box;margin-top:18px;display:flex;align-items:center;justify-content:space-between;line-height:18px;
+}
+.fourClass .secondName{
+    margin-left:27px;font-size: 14px;
+}
+.fiveClass{
+    padding-left: 238px;box-sizing: border-box;margin-top:18px;display:flex;align-items:center;justify-content:space-between;line-height:18px;
+}
+.fiveClass .secondName{
+    margin-left:14px;font-size: 14px;
+}
